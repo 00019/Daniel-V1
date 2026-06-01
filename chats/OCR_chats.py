@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 
-class OCRModel:
+class OCRChat:
 
     FIELDS = ["check_number", "date_issued", "payee", "drawer", "drawee", "amount", "memo", "account", "routing"]
     CRITICAL = ["check_number", "date_issued", "payee", "drawer", "drawee", "amount"]

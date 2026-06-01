@@ -9,7 +9,7 @@ from PySide6.QtCore import Qt
 class CheckOCRMixin:
 
     def automatic_addition(self):
-        from models.OCR_model import OCRModel
+        from chats.OCR_chats import OCRModel
 
         file_path, _ = QFileDialog.getOpenFileName(
             self,

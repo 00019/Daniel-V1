@@ -2,7 +2,7 @@ from PySide6.QtWidgets import QDialog, QInputDialog, QMessageBox
 
 from .dialogs.query_dialog import QueryDialog
 
-from models.query_model import QueryModel
+from chats.query_chats import QueryModel
 
 
 class CheckQueryMixin:

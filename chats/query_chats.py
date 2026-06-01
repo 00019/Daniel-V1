@@ -25,7 +25,7 @@ class QueryResult:
         return [dict(zip(self.columns, r)) for r in self.rows]
 
 
-class QueryModel:
+class QueryChat:
     COLUMNS = [
         "id",
         "check_number",
